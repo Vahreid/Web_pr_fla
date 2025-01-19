@@ -12,9 +12,6 @@ def index():
 def about():
     return render_template('about.html', title="О сайте", menu=menu)
 
-@app.route('/user/<username>')
-def show_user_profile(username):
-  return f'User {username}'
 
 
 
