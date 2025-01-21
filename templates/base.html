@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-{% block litle %}
+<link type="text/css" href="{{ url_for('static', filename='css/stales.css')}}" rel="staleshet"/>
+{% block title %}
     {% if title %}
         <title>Про Flask - {{ title }}</title>
     {% else %}
